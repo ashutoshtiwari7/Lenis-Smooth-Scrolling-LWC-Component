@@ -1,0 +1,153 @@
+<template>
+    <div class="container">
+        <!-- Animated Emojis Row -->
+        <div class="emoji-row">
+            <span class="emoji wave" aria-label="wave" title="Hello">👋</span>
+            <span class="emoji float" aria-label="rocket" title="Up we go">🚀</span>
+            <span class="emoji bounce delay-1" aria-label="star" title="Shine">✨</span>
+            <span class="emoji bounce delay-2" aria-label="sparkles" title="Sparkle">🌟</span>
+            <span class="emoji float-slow" aria-label="comet" title="Comet">☄️</span>
+        </div>
+        <div class="header">
+            <h1>Lenis Smooth Scrolling LWC Component</h1>
+            <h2>by</h2>
+        </div>
+
+        <div class="header">
+            <h1>Ashutosh Tiwari</h1>
+            <h2>Salesforce Developer</h2>
+        </div>
+
+        <div class="card">
+            <div class="inner">
+                <!-- Implementation Steps -->
+                <section class="section">
+                    <h2>Implementation Steps: Lenis Smooth Scrolling in LWC</h2>
+
+                    <h3>Step 1: Download the Lenis JavaScript File</h3>
+                    <ul>
+                        <li>• Open: <a href="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"
+                                target="_blank">https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js</a>
+                        </li>
+                        <li>• Save the page as <code>lenis.js</code> locally for upload.</li>
+                    </ul>
+
+                    <h3>Step 2: Enable Lightning Web Security</h3>
+                    <ul>
+                        <li>• Setup → Session Settings → Lightning Web Security.</li>
+                        <li>• Enable “Use Lightning Web Security for Lightning web components and Aura components”.</li>
+                        <li>• Save the settings.</li>
+                    </ul>
+
+                    <h3>Step 3: Upload lenis.js as Static Resource</h3>
+                    <ul>
+                        <li>• Setup → Static Resources → New.</li>
+                        <li>• Name it (e.g., <code>lenis</code>) and upload <code>lenis.js</code>. Save.</li>
+                    </ul>
+
+                    <h3>Step 4: Create Your LWC</h3>
+                    <ul>
+                        <li>• Create component (e.g., <code>smoothScrolling</code>) and add content to scroll.</li>
+                    </ul>
+
+                    <h3>Step 5: Load and Initialize Lenis</h3>
+                    <p>• Use <code>loadScript</code> from <code>lightning/platformResourceLoader</code> and initialize
+                        Lenis inside <code>renderedCallback</code> in the component’s JavaScript file.</p>
+                </section>
+
+                <!-- Project Experience -->
+                <section class="section">
+                    <h2>Project Experience</h2>
+                    <ul>
+                        <li>• Designed and implemented custom LWCs to optimize user workflows.</li>
+                        <li>• Led integrations for B2B Commerce across sales, inventory, and customer processes.</li>
+                        <li>• Built scalable Apex automations improving data quality and reducing manual effort.</li>
+                        <li>• Migrated Aura components to LWC for performance and maintainability gains.</li>
+                        <li>• Delivered Experience Cloud portals to enhance customer self‑service.</li>
+                    </ul>
+                </section>
+
+                <!-- Salesforce Expertise -->
+                <section class="section">
+                    <h2>Salesforce Expertise</h2>
+                    <ul>
+                        <li>• Sales Cloud, Experience Cloud, B2B Commerce implementation.</li>
+                        <li>• Administration: automation, security, permissions, data quality.</li>
+                        <li>• Apex & Visualforce: triggers, batch, custom pages.</li>
+                        <li>• Data migration and integrations (REST/SOAP).</li>
+                        <li>• Secure sharing models; performance tuning; Agile delivery.</li>
+                    </ul>
+                </section>
+
+                <!-- Lenis Project -->
+                <section class="section">
+                    <h2>Smooth Scrolling with Lenis Project</h2>
+                    <p>Lenis loaded as a static resource and initialized via <code>loadScript</code> to enable inertial,
+                        jank‑free scrolling in LWC dashboards and portals.</p>
+                    <ul>
+                        <li>• Natural animations for long lists and feeds.</li>
+                        <li>• Easing/inertia tuning; mobile and desktop responsive.</li>
+                        <li>• Hooks for animations and lazy-loading on scroll.</li>
+                        <li>• requestAnimationFrame loop for consistency.</li>
+                    </ul>
+                </section>
+
+                <!-- Certifications -->
+                <section class="section">
+                    <h2>Certifications</h2>
+                    <ul>
+                        <li>• Salesforce PD1 Certified 📜</li>
+                        <li>• AI Associate Certified 🧑‍💻</li>
+
+                    </ul>
+                </section>
+                <section class="section">
+                    <h2> Key Skills</h2>
+                    <ul>
+                        <li>• Lightning Web Components & Apex ⚡</li>
+                        <li>• Salesforce Administration 💻</li>
+                        <li>• B2B Commerce Implementation 🧑‍💼</li>
+                        <li>• API Integration ⛓️‍💥</li>
+                    </ul>
+                </section>
+            </div>
+            <!-- Ending: Connect & Project Details -->
+            <section class="section">
+                <h2>Connect & Project Details</h2>
+                <p>
+                    This component demonstrates implementing Lenis smooth scrolling in an LWC by loading the library as
+                    a static resource and initializing it with <code>loadScript</code>, then running a lightweight
+                    <code>requestAnimationFrame</code> loop for fluid, accessible scrolling behavior across desktop and
+                    mobile.
+                </p>
+                <ul>
+                    <li>• Technology: Lightning Web Components, Static Resources, Lenis (smooth scrolling), CSS
+                        animations.</li>
+                    <li>• Focus: Performance-friendly transforms, accessible typography, and scoped LWC styling.</li>
+                    <li>• Use cases: Long feeds, dashboards, content-rich portals, and visually engaging profile pages.
+                    </li>
+                </ul>
+
+                <div class="contact">
+                    <a class="btn" href="https://www.linkedin.com/in/ashutosh-tiwari-59578416a/" target="_blank"
+                        rel="noopener noreferrer" title="Open LinkedIn Profile">
+                        🔗 View LinkedIn Profile
+                    </a>
+
+                </div>
+                <div class="contact">
+                    <a class="btn2" href="https://github.com/ashutoshtiwari7?tab=repositories" target="_blank"
+                        rel="noopener noreferrer" title="Open Github Repo">
+                        🔗 View GitHub Repo
+                    </a>
+                    <p class="note">
+                        Prefer collaboration or feedback? Feel free to connect and mention this Lenis-in-LWC project.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+</template>
