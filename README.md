@@ -1,4 +1,5 @@
 <h1> LWC + Lenis Smooth Scrolling 🚀 <h1>
+    
 A Lightning Web Component that demonstrates buttery‑smooth scrolling using the Lenis library, plus elegant UI, animated emojis, and scoped CSS. Built for Salesforce developers who want a clean, performant scroll experience inside Lightning. ✨
 
 Table of Contents 📚
